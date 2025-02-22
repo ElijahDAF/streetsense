@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       padding: const EdgeInsets.all(16),
                       color: Colors.black54,
                       child: const Text(
-                        "Recognizing...",
+                        "Recognizing your surroundings",
                         style: TextStyle(color: Colors.white, fontSize: 20),
                       ),
                     ),
