@@ -43,4 +43,5 @@ def describe_image():
     return jsonify({"description": description}), 200
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    # Run the app on all available IP addresses (0.0.0.0) and port 5000
+    app.run(host="0.0.0.0", port=5000, debug=True)
